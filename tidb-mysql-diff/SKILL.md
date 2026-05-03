@@ -8,7 +8,13 @@ description: >
   4) 自增列、外键、存储过程等特性差异；
   5) MySQL 应用迁移后行为不一致时触发。
   不回答通用 SQL 问题，只解决 TiDB 与 MySQL 的差异。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 与 MySQL 兼容性差异
 

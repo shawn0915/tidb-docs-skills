@@ -6,7 +6,13 @@ description: >
   3) 扩容/缩容 TiKV/TiDB/TiFlash/PD；4) 集群配置变更；
   5) TiProxy/TiCDC 组件部署；6) 集群启停、重启、销毁时触发。
   不回答 Linux 基础问题。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 部署与运维操作
 
@@ -85,8 +91,8 @@ tiup cluster upgrade <name> v8.5.6
 # 维护窗口内可加 --offline 加速（会中断业务）
 tiup cluster upgrade <name> v8.5.6 --offline
 
-# 仅升级指定组件
-tiup cluster upgrade <name> v8.5.6 --tiflash only
+# 仅升级指定角色（如只升级 tiflash）
+tiup cluster upgrade <name> v8.5.6 --role tiflash
 ```
 
 ### 升级后验证

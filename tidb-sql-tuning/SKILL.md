@@ -7,7 +7,13 @@ description: >
   5) 统计信息管理；6) MPP 模式查询优化；
   7) 热点问题处理；8) Runaway Query 管控时触发。
   不回答通用 SQL 教学。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 SQL 性能调优
 
@@ -152,7 +158,7 @@ SHOW VARIABLES LIKE 'tidb_auto_analyze%';
 ```bash
 # 使用 pd-ctl 查看 hot regions
 tiup ctl:v8.5.6 pd -u http://<pd>:2379 hot read
-ntiup ctl:v8.5.6 pd -u http://<pd>:2379 hot write
+tiup ctl:v8.5.6 pd -u http://<pd>:2379 hot write
 
 # TiDB Dashboard Key Visualizer（最直观）
 # http://<pd>:2379/dashboard/#/keyvis

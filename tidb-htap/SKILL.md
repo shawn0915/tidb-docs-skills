@@ -6,7 +6,13 @@ description: >
   3) TiFlash 存算分离/S3 架构；4) FastScan / 延迟物化；
   5) 查询结果物化；6) HTAP 场景设计与性能调优；
   7) TiFlash 与 TiKV 的选择时触发。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 TiFlash HTAP 与实时分析
 

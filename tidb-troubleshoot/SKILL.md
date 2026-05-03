@@ -6,7 +6,13 @@ description: >
   3) 锁冲突、TTL 超时；4) TiCDC/TiKV/TiFlash 异常；
   5) 报警响应与处理；6) 读写延迟高；7) 节点状态异常时触发。
   不提供 Linux 基础运维指导。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 故障诊断与排查
 

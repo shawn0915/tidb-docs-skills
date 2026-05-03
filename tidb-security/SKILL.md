@@ -5,7 +5,13 @@ description: >
   当用户涉及：1) 开启 TLS/加密传输；2) 静态加密（TDE）；
   3) 角色权限配置；4) 密码策略；5) 列级权限/掩码策略；
   6) 证书鉴权；7) 日志脱敏；8) 安全合规加固时触发。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 安全加固与权限管理
 

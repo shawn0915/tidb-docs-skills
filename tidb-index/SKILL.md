@@ -5,7 +5,13 @@ description: >
   当用户询问任何与 TiDB 相关的问题时，先调用此 Skill 进行意图识别和子 Skill 路由。
   负责确认用户 TiDB 版本、部署环境（TiUP/K8s/Cloud），并分发给下游专业 Skill。
   不直接回答技术问题，只做路由分发和版本锚定。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 文档知识库总入口
 

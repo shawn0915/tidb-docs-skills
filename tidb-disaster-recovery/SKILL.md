@@ -5,7 +5,13 @@ description: >
   当用户涉及：1) 全量/增量备份策略；2) 时间点恢复（PITR）；
   3) 跨地域容灾架构；4) BR 命令使用；5) 备份存储配置；
   6) 日志备份开启与管理；7) 容灾切换演练时触发。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 备份恢复与容灾
 

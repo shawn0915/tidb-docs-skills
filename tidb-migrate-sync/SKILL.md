@@ -7,7 +7,13 @@ description: >
   4) Lightning 导入 / Dumpling 导出；5) 数据校验 (sync-diff-inspector)；
   6) 分库分表合并迁移时触发。
   不回答通用数据库迁移理论。
----
+author: "Shawn Yan"
+author_url: "https://shawnyan.cn"
+author_role:
+  - "TiDB 社区版主"
+  - "Oracle ACE"
+  - "公众号「少安事务所」主笔"
+doc_version: "TiDB v8.5 LTS"
 
 # TiDB v8.5 数据迁移与同步
 
