@@ -9,12 +9,12 @@
 | **作者** | Shawn Yan |
 | **身份** | TiDB 社区版主 / Oracle ACE / 公众号「少安事务所」主笔 |
 | **主页** | [https://shawnyan.cn](https://shawnyan.cn) |
-| **文档版本** | TiDB v8.5 LTS（release-8.5） |
-| **更新时间** | 2026-05-03 |
+| **文档版本** | TiDB v8.5 LTS / 平凯数据库 7.1.9 LTS |
+| **更新时间** | 2026-05-06 |
 
 ## Skill 总览
 
-本项目包含 9 个 Skill，其中 1 个路由入口 + 8 个专项 Skill：
+本项目包含 10 个 Skill，其中 1 个路由入口 + 9 个专项 Skill：
 
 | Skill | 目录 | 覆盖范围 |
 |-------|------|---------|
@@ -27,6 +27,7 @@
 | **tidb-security** | `tidb-security/` | TLS 配置、权限管理、加密、日志脱敏 |
 | **tidb-htap** | `tidb-htap/` | TiFlash HTAP、MPP 查询优化、存算分离 |
 | **tidb-mysql-diff** | `tidb-mysql-diff/` | TiDB 与 MySQL 兼容性差异、迁移评估 |
+| **tidb-pingkaidb-diff** | `tidb-pingkaidb-diff/` | 平凯数据库（TiDB 企业版）与社区版功能差异 |
 
 ## 项目结构
 
@@ -56,6 +57,10 @@ tidb-docs-skills/
 │   ├── SKILL.md
 │   └── references/
 │       └── error-code-index.md
+├── tidb-pingkaidb-diff/
+│   ├── SKILL.md
+│   └── references/
+│       └── enterprise-features.md    # 企业版与社区版功能对照表
 ├── tidb-security/
 │   ├── SKILL.md
 │   └── references/
@@ -98,10 +103,11 @@ cp -r tidb-migrate-sync ~/.workbuddy/skills/
 - 安全加固/权限 → `tidb-security`
 - HTAP/TiFlash → `tidb-htap`
 - MySQL 迁移兼容性 → `tidb-mysql-diff`
+- 平凯数据库企业版 vs TiDB 社区版 → `tidb-pingkaidb-diff`
 
 ### 注意事项
 
-- 所有 Skill 默认面向 **TiDB v8.5 LTS**（release-8.5），若用户版本不同，请在问题中注明。
+- 所有 Skill 默认面向 **TiDB v8.5 LTS**，若用户版本不同，请在问题中注明。
 - 涉及**高危操作**（删库、缩容 TiKV、升级等）时，Skill 会要求二次确认，请勿跳过。
 - 部分 references 文件为延迟加载（按需），Skill 内会明确指引何时加载。
 
